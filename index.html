@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charlotte's Portfolio</title>
+
+  <!-- Materialize CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+  
+  <!-- Cute Blocky Font for Title -->
+  <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+
+  <!-- Your existing stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    /* General body styles */
+    body {
+      font-family: 'Playfair Display', serif;
+      background-color: #F2E9E4;
+      color: #22223B;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Styled nav bar */
+    nav {
+      background-color: #003366; /* Navy Blue */
+    }
+
+    .nav-wrapper {
+      padding: 0 20px;
+    }
+
+    .nav-wrapper ul li a {
+      color: #F2E9E4; /* Light beige text */
+    }
+
+    .nav-wrapper ul li a:hover {
+      background-color: #C9ADA7; /* Light lavender on hover */
+      color: #003366;
+      border-radius: 5px;
+    }
+
+    /* Header title */
+    header h1 {
+      text-align: center;
+      font-family: 'Fredericka the Great', cursive;
+      font-size: 3em;
+      color: #003366;
+      margin: 30px 0 20px;
+    }
+
+    /* Image container and overlay text */
+    .image-section {
+      position: relative;
+      width: 100%;
+    }
+
+    .image-section img {
+      width: 100%;
+      height: auto;
+      opacity: 0.8;
+    }
+
+    .toptext {
+      position: absolute;
+      top: 5%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 75%;
+      font-size: 1.2em;
+      font-weight: bold;
+      text-align: center;
+      color: #003366;
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0.6);
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Page Title -->
+  <header>
+    <h1>Charlotte's Portfolio</h1>
+  </header>
+ <!-- Navigation Bar -->
+ <nav>
+  <div class="nav-wrapper">
+    <ul id="nav-mobile" class="center hide-on-med-and-down">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="materialize.html">Materialize</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="bootstrap.html">Summer Camp</a></li>
+    </ul>
+  </div>
+</nav>
+
+  <!-- Image Section -->
+  <section class="image-section">
+    <img src="https://imgur.com/BelWaeu.jpg" alt="Sports Journey">
+    <div class="toptext">
+      Welcome to my site! This is space to share my journey, experiences, and future projects in the sports industry—whether in media, operations, or leadership. Feel free to explore, connect, or reach out. I’d love to hear from you!
+    </div>
+  </section>
+
+  <!-- Materialize JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+</html>

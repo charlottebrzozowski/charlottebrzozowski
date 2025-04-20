@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Charlotte's Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet" />
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    
+    <style>
+      body {
+        font-family: 'Playfair Display', serif;
+        background-color: #F2E9E4;
+        color: #22223B;
+        margin: 0;
+        padding: 0;
+      }
+
+      header h1 {
+        text-align: center;
+        font-family: 'Fredericka the Great', cursive;
+        font-size: 3em;
+        color: #003366;
+        margin-top: 20px;
+        margin-bottom: 40px;
+      }
+
+      nav {
+  background-color: #003366;
+  padding: 10px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+  font-size: 1em;
+  padding: 10px 20px;
+}
+
+nav ul li a:hover {
+  background-color: #C9ADA7;
+  border-radius: 5px;
+}
+
+
+      .section {
+        max-width: 1000px;
+        margin: 0 auto 60px;
+        padding: 0 20px;
+      }
+
+      .section h5 {
+        font-size: 1.1em;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .accordion-button {
+        font-size: 0.5em;
+        background-color: #e0dede;
+      }
+
+      .carousel-container {
+        max-width: 700px;
+        margin: 60px auto;
+      }
+
+      .carousel-inner img {
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+        border-radius: 12px;
+      }
+
+      .footer {
+        background-color: #003366;
+        color: white;
+        padding: 30px 0;
+        text-align: center;
+      }
+
+      .footer a {
+        color: white;
+        margin: 0 15px;
+        font-size: 1.2em;
+        text-decoration: none;
+      }
+
+      .footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header Title -->
+    <header>
+      <h1>Charlotte's Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="materialize.html">Materialize</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="bootstrap.html">Summer Camp</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+   
+
+    <!-- Resume Section -->
+    <div class="section">
+      <h5>Resume</h5>
+      <div class="accordion" id="resumeAccordion">
+
+        <!-- Education -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+              Education
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#resumeAccordion">
+            <div class="accordion-body">
+              <strong>Miami University, Oxford, OH</strong><br>
+              Bachelor of Science in Sport Leadership and Management<br>
+              Major in Sport Communication and Media<br>
+              Expected Graduation: May 2028
+            </div>
+          </div>
+        </div>
+
+        <!-- Work Experience -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+              Work Experience
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#resumeAccordion">
+            <div class="accordion-body">
+              <strong>Charlotte's Tuesday Children's Camp</strong> - Founder & CEO, Hinsdale, IL (July 2021 - August 2024)<br>
+              - Founded a summer camp for over 20 children, helping "Covid babies" develop social skills and engage with peers after pandemic isolation.<br>
+              - Conducted hiring and managed a team of peers, organizing activities, and creating a supportive and inclusive environment.<br><br>
+
+              <strong>Pitchin' Kitchen</strong> - Manager, Hinsdale, IL (August 2018 - August 2024)<br>
+              - Oversaw training, budgeting, payroll, inventory, and purchasing while managing employee relations and ensuring high quality and customer satisfaction.<br>
+              - Assisted in preparing and grilling food, maintaining high standards of cleanliness and organization in the kitchen.<br><br>
+
+              <strong>Full-Time Nanny & Household Manager</strong> - Maggie Phillips, Western Springs, IL (September 2022 - August 2024)<br>
+              - Managed daily care for four children under the age of ten while attending school full-time, working 4 PM to 9 PM each day.<br>
+              - Prepared snacks and meals, organized playdates, and ensured children's schedules were followed for school, activities, and social events.<br>
+              - Oversaw household management tasks, including meal prep, activity planning, and managing the overall well-being of the household.<br><br>
+
+              <strong>Learn to Skate Hockey Coach</strong> - Darien Sportsplex, Darien, IL (October 2023 - August 2024)<br>
+              - Coached 90+ beginners of all ages in skating, focusing on fundamental techniques with personalized instruction.<br>
+            </div>
+          </div>
+        </div>
+
+        <!-- Campus Involvement -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+              Campus Involvement
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#resumeAccordion">
+            <div class="accordion-body">
+              <strong>Women in Sports Leadership (WISL)</strong> - Miami University (September 2024 - Present)<br>
+              - Participated in leadership workshops and networking events to develop skills in navigating leadership roles and building professional networks with women in the sports industry.<br><br>
+
+              <strong>Letters of Love</strong> - Miami University (September 2024 - Present)<br>
+              - Raised funds and designed personalized cards to offer emotional support and spread love to hospitalized children and families.<br><br>
+
+              <strong>Best Buddies</strong> - Miami University (September 2024 - Present)<br>
+              - Promoted inclusion and established friendships with individuals with intellectual and developmental disabilities through events.<br>
+            </div>
+          </div>
+        </div>
+
+        <!-- Volunteer Experience -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+              Volunteer Experience
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#resumeAccordion">
+            <div class="accordion-body">
+              <strong>President, Peer Buddies</strong> - Hinsdale Central High School (September 2022 - May 2024)<br>
+              - Led the planning and execution of events and meetings for 50+ students, fostering engagement for individuals of all abilities.<br>
+              - Accompanied students with disabilities at sports events and school dances, elevating social inclusion and creating meaningful experiences.<br><br>
+
+              <strong>Assistant Coach, Special Olympics Basketball</strong> - Hinsdale Central High School (November 2021 - February 2024)<br>
+              - Mentored 30+ athletes with physical and mental disabilities, using tailored techniques to celebrate their unique strengths, foster confidence, and create meaningful connections with athletes and families.<br><br>
+
+              <strong>Team Member, MicroFinance</strong> - Hinsdale Central High School (September 2022 - February 2024)<br>
+              - Facilitated the loaning of $8,000 annually to small businesses worldwide. Monitored the loans to support financial goals.<br>
+            </div>
+          </div>
+        </div>
+
+        <!-- Honors and Awards -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
+              Honors and Awards
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#resumeAccordion">
+            <div class="accordion-body">
+              <strong>Outstanding Senior in Physical Education and Health Award</strong><br>
+              <strong>Character Award</strong><br>
+              <strong>Latin Sodales Hercules Atlasque Award</strong><br>
+              <strong>Student of the Semester in Chemistry/Physics</strong><br>
+              <strong>Student of the Semester in Biology</strong><br>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Carousel Section -->
+    <div class="carousel-container">
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4"></button>
+        </div>
+
+        <!-- Slides -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://i.imgur.com/8Z0DUrD.jpg" alt="Charlotte smiling outdoors">
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.imgur.com/9UcvQsk.jpg" alt="Charlotte at a sports event">
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.imgur.com/9E8Ilq8.jpg" alt="Charlotte leading a children's activity">
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.imgur.com/S2tboUT.jpg" alt="Charlotte coaching basketball">
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.imgur.com/oiI40kf.jpg" alt="Charlotte at an award ceremony">
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+      </div>
+    </div>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

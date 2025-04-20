@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Charlotte's Profile</title>
+
+  <!-- ✅ Your Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Materialize (still here for cards/buttons/etc.) -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Playfair Display', serif;
+      background-color: #F2E9E4;
+      color: #22223B;
+      margin: 0;
+      padding: 0;
+    }
+
+    .profile-img {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 6px solid #4A4E69;
+    }
+
+    .card-panel {
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      background-color: #FFFFFF;
+    }
+
+    .btn {
+      border-radius: 8px;
+      font-size: 1.1em;
+      background-color: #9A8C98;
+    }
+
+    .btn:hover {
+      background-color: #C9ADA7;
+    }
+
+    footer {
+      background-color: transparent !important;
+      color: #22223B;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      text-align: center;
+      font-family: 'Fredericka the Great', cursive;
+      font-size: 3em;
+      color: #003366;
+      margin-top: 20px;
+    }
+
+    .profile-section {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .profile-section h5 {
+      margin-top: 20px;
+    }
+
+    .intro-section {
+      margin-top: 30px;
+    }
+
+    .video-container iframe {
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .cta-section {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    /* ✅ Nav bar styling from you */
+    nav {
+      background-color: #003366;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: normal;
+      font-size: 1em;
+      padding: 10px 20px;
+    }
+
+    nav ul li a:hover {
+      background-color: #C9ADA7;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Charlotte's Profile</h1>
+
+    <!-- ✅ Clean, centered nav bar -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="materialize.html">Materialize</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="bootstrap.html">Summer Camp</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Profile Section -->
+  <div class="container profile-section">
+    <img src="https://imgur.com/KENTBko.png" alt="Charlotte's Profile Picture" class="profile-img">
+    <h5><a href="https://www.linkedin.com/in/charlotte-brzozowski" class="waves-effect waves-light btn">View My LinkedIn</a></h5>
+  </div>
+
+  <!-- Intro Section -->
+  <div class="container intro-section">
+    <div class="card-panel center-align" style="font-size: 1em; padding: 20px;">
+      <h4>Get to know me a little more...</h4>
+      <p class="flow-text" style="font-size: 0.9em;">Welcome to my page! Here, you’ll find a little more about my passions, experiences, and interests. Let’s connect!</p>
+    </div>
+  </div>
+
+  <!-- Embedded YouTube Video -->
+  <div class="container video-container center-align">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/157EmSjgpr8" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+</body>
+</html>

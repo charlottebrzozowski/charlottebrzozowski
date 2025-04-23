@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kappa Alpha Theta – Leading Women</title>
+
+  <!-- ✅ Your Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Materialize for layout/components -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Playfair Display', serif;
+      background-color: #F2E9E4;
+      color: #22223B;
+      margin: 0;
+      padding: 0;
+    }
+
+    header h1 {
+      text-align: center;
+      font-family: 'Fredericka the Great', cursive;
+      font-size: 3em;
+      color: #003366;
+      margin-top: 20px;
+    }
+
+    nav {
+      background-color: #003366;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 1em;
+      padding: 10px 20px;
+    }
+
+    nav ul li a:hover {
+      background-color: #C9ADA7;
+      border-radius: 5px;
+    }
+
+    .section {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .values {
+      background-color: #c9ada7;
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .theta-img {
+      display: none;
+      width: 100%;
+      border-radius: 15px;
+      margin-top: 20px;
+    }
+
+    .btn-custom {
+      background-color: #5f4b8b;
+      color: white;
+      margin-top: 20px;
+    }
+
+    footer {
+      background-color: transparent;
+      color: #22223B;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Charlotte's Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="materialize.html">Materialize</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="bootstrap.html">Summer Camp</a></li>
+        <li><a href="jquery.html">Casa On The Court</a></li>
+        <li><a href="dashboard.html">Life Updates!</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container section">
+    <p class="flow-text">
+      I just became a member of <strong>Kappa Alpha Theta</strong>, a sisterhood of Leading Women committed to connection, service, and growth.
+    </p>
+
+    <p>
+      While I joined a sorority to meet lifelong friends, fundraise for incredible causes, and be part of something bigger than myself — what truly drew me to Theta was our <strong>Mental Health Committee</strong>. Founded in November of 2018, this committee exists to spark positive conversation, create a safe space, and ensure every member feelssupported, seen, and loved. I have struggled with my mental health since freshman year of highschool. I have always been an advocate to friends and family who needed support and someone to talk to. The MHC made me feel so seen and important. </em>.
+    </p>
+
+    <div class="casa-flyer center-align">
+      <a href="https://imgur.com/0BFXGBZ" target="_blank">
+        <img src="https://i.imgur.com/0BFXGBZ.jpg" alt="CASA on the Courts Flyer">
+      </a>
+    </div>
+    
+    <style>
+      .casa-flyer img {
+        border: 5px solid gold;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        max-width: 100%;
+        height: auto;
+        margin-top: 30px;
+        transition: transform 0.3s ease;
+      }
+    
+      .casa-flyer img:hover {
+        transform: scale(1.03);
+      }
+    </style>
+    <div class="card-panel z-depth-1">
+      <h5>Upcoming Event: CASA on the Courts</h5>
+      <p>
+        Join the members of Kappa Alpha Theta for our fundraiser <strong>CASA on the Courts</strong>! All proceeds will go to <a href="https://www.parachutecasa.org/" target="_blank">Parachute CASA</a> of Butler County and the <strong>Kappa Alpha Theta Foundation</strong>.
+      </p>
+      <p>
+        CASA (Court Appointed Special Advocates) is a nonprofit organization that provides trained volunteers to support children in the juvenile court system due to abuse, neglect, or abandonment. These volunteers advocate for the child’s right to a safe, permanent home — as soon as possible.
+      </p>
+      <p>
+        The Kappa Alpha Theta Foundation helps every Theta make a difference by supporting scholarships, leadership programs, and service opportunities.
+      </p>
+    </div>
+
+    <div class="center-align">
+      <a class="btn btn-custom" id="showImages">See Our Sisters in Action 💫</a>
+    </div>
+
+    <div class="row">
+      <div class="col s12 m6">
+        <img src="https://i.imgur.com/YHhCAq3.jpg" class="theta-img" alt="Theta Sisterhood" />
+      </div>
+      <div class="col s12 m6">
+        <img src="https://i.imgur.com/inv2PU8.jpg" class="theta-img" alt="Theta Event" />
+      </div>
+      <div class="col s12 m6">
+        <img src="https://i.imgur.com/dNu38eR.jpg" class="theta-img" alt="Theta CASA" />
+      </div>
+      <div class="col s12 m6">
+        <img src="https://i.imgur.com/4UIL049.jpg" class="theta-img" alt="CASA Fundraiser" />
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Created by Charlotte | Kappa Alpha Theta – Miami University</p>
+  </footer>
+
+  <!-- jQuery & Script -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $("#showImages").click(function() {
+      $(".theta-img").fadeIn(1500);
+    });
+  </script>
+</body>
+</html>
